@@ -1,7 +1,12 @@
+package Bai1;
+
 public class Test {
     public static void main(String[] args) {
         People people = new People();
-        people.toString();
+        System.out.println(people);
+        Teacher teacher = new Teacher();
+        System.out.println(teacher);
 
     }
+
 }
